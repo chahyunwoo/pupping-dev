@@ -1,0 +1,19 @@
+@import "./abstracts/variables";
+
+@import "./base/reset";
+
+@import "./layout/footer";
+@import "./layout/header";
+@import "./layout/layout";
+@import "./layout/moMenu";
+
+@import "./pages/index-benefits";
+@import "./pages/index-character";
+@import "./pages/index-faq";
+@import "./pages/index-main";
+@import "./pages/index-nft";
+@import "./pages/index-remaining";
+@import "./pages/index-roadmap";
+@import "./pages/index-story";
+
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700;900&display=swap");
