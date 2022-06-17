@@ -19,8 +19,7 @@ function Main() {
   const images = [dog1, dog2, dog3, dog4, dog5, dog6, dog7, dog8, dog9, dog10];
 
   return (
-    <Layout name="main">
-      <div className="main-bg"></div>
+    <Layout name="main" id='main'>
       <div className="main-content">
         <div className="contWrap">
           <h2 className="title">

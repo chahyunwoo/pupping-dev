@@ -2,9 +2,9 @@ import Layout from "../../components/Layout"
 
 function FAQ() {
   return (
-    <div>
-      FAQ
-    </div>
+    <Layout name="faq" id='faq'>
+      faq
+    </Layout>
   )
 }
 

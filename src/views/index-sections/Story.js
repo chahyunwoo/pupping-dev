@@ -2,9 +2,9 @@ import Layout from "../../components/Layout"
 
 function Story() {
   return (
-    <div>
-      STORY
-    </div>
+    <Layout name="story" id='story'>
+      story
+    </Layout>
   )
 }
 

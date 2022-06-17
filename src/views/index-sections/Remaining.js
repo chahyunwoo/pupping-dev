@@ -2,9 +2,9 @@ import Layout from "../../components/Layout"
 
 function Remaining() {
   return (
-    <div>
-      REMAINING
-    </div>
+    <Layout name="remaining" id='remaining'>
+      remaining
+    </Layout>
   )
 }
 

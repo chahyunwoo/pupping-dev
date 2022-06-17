@@ -2,9 +2,9 @@ import Layout from "../../components/Layout"
 
 function Roadmap() {
   return (
-    <div>
-      ROADMAP
-    </div>
+    <Layout name="roadmap" id='roadmap'>
+      roadmap
+    </Layout>
   )
 }
 

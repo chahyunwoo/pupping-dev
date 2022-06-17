@@ -1,15 +1,26 @@
 html,
 body {
-  overflow: revert;
   min-width: 280px !important;
   font-size: 10px !important;
   -webkit-font-smoothing: antialiased;
+}
+
+html {
+
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
 }
 
 body {
   margin: 0;
   padding: 0;
   font-family: "Titillium Web", sans-serif;
+}
+
+#root {
+  section {
+    scroll-snap-align: start;
+  }
 }
 
 dl,
